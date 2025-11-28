@@ -373,7 +373,7 @@ with tab1:
                 'ltv_ratio': '{:.2f}',
                 'expected_return': '${:,.0f}',
                 'potential_loss': '${:,.0f}'
-            }).background_gradient(subset=['default_prob'], cmap='RdYlGn_r'),
+            }),
             use_container_width=True,
             height=400
         )
@@ -718,7 +718,7 @@ with tab3:
                 'ltv_ratio': '{:.2f}',
                 'expected_return': '${:,.0f}',
                 'potential_loss': '${:,.0f}'
-            }).background_gradient(subset=['default_prob'], cmap='RdYlGn_r'),
+            }),
             use_container_width=True,
             height=400
         )
